@@ -48919,9 +48919,12 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return _react.default.createElement("div", null, _react.default.createElement("h1", null, " Welcome to Fellow! "), _react.default.createElement(_reactBootstrap.Button, {
-        variant: "success",
+        variant: "info",
         size: "lg"
-      }, "Log in"));
+      }, "Log in"), _react.default.createElement(_reactBootstrap.Button, {
+        variant: "light",
+        size: "lg"
+      }, "Create an Account"));
     }
   }]);
   return Homepage;
