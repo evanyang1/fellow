@@ -1,7 +1,7 @@
 import React from 'react'
 import {Button} from 'react-bootstrap'
 
-import {Link, BrowserRouter, Switch, Route} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 class Homepage extends React.Component {
 
@@ -10,8 +10,8 @@ class Homepage extends React.Component {
       <div>
         <h1> Welcome to Fellow! </h1>
 
-        <Link to="/Login"><Button variant="info" size="lg">Log in</Button></Link>
-        <Button variant="light" size="lg">Create an Account</Button>
+        <Link to="/login"><Button variant="info" size="lg">Log in</Button></Link>
+        <Link to="/createaccount"><Button variant="light" size="lg">Create an Account</Button></Link>
       </div>
     )
   }

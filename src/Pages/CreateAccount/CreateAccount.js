@@ -3,13 +3,13 @@ import {Button} from 'react-bootstrap'
 
 import {Link} from 'react-router-dom'
 
-class Login extends React.Component {
+class CreateAccount extends React.Component {
 
   render(){
     return (
       <div>
         <Link to="/">Fellow</Link>
-        <h1> Login </h1>
+        <h1> Create an Account </h1>
       </div>
     )
   }
@@ -17,4 +17,4 @@ class Login extends React.Component {
 }
 
 
-export default Login
+export default CreateAccount
