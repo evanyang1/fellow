@@ -10,6 +10,13 @@ class CreateAccount extends React.Component {
       <div>
         <Link to="/">Fellow</Link>
         <h1> Create an Account </h1>
+        <form>
+          Username:
+          <input type="text"/>
+          Password:
+          <input type="password"/>
+          <input type="submit" value="Create Account" />
+        </form>
       </div>
     )
   }
